@@ -86,12 +86,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="users"><i class="fas fa-user"></i></span>
-              User
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
               <span data-feather="bar-chart-2"><i class="fas fa-chart-bar"></i></span>
               Chart
             </a>
@@ -107,19 +101,19 @@
         <ul class="nav flex-column mb-2">
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
+              <span data-feather="file-text"><i class="fas fa-user"></i></span>
               Akun User
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
+              <span data-feather="file-text"><i class="fas fa-user"></i></span>
              	Akun Staff
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
+              <span data-feather="file-text"><i class="fas fa-cog"></i></span>
               Setting Web
             </a>
           </li>
