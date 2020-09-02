@@ -12,13 +12,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="assets/img/tmp2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="assets/img/tmp3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="assets/img/tmp4.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -31,12 +31,15 @@
   </a>
 </div>
   </div>
+
+  <br>
+  <hr>
 <!--Content Web-->
 
 <div style="margin-left: 30px; margin-top: 30px;">
 	<div class="row">
 		<div class="card" style="width: 18rem;">
-		  <img src="..." class="card-img-top" alt="...">
+		  <img src="assets/img/tmp2.jpg" class="card-img-top" alt="...">
 		  <div class="card-body">
 		    <h5 class="card-title">Card title</h5>
 		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
