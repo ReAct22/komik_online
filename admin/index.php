@@ -17,6 +17,7 @@
 
   <!-- Custom styles for this template-->
   <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
+  <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
 
 </head>
 
@@ -237,6 +238,14 @@
               $page = @$_GET['page'];
               if($page == ""){
                 include "views/beranda.php";
+              }else if($page == "post"){
+                include "views/post.php";
+              }else if($page == "page"){
+                include "views/page.php";
+              }else if($page == "tambah_post"){
+                include "views/tambah_post.php";
+              }else{
+                include "views/404.php";
               }
             ?>
 
@@ -255,13 +264,15 @@
       <!-- End of Main Content -->
 
       <!-- Footer -->
-      <footer class="sticky-footer bg-white">
+      <div style="padding-top: 200px;">
+        <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
             <span>Copyright &copy; Your Website 2020</span>
           </div>
         </div>
       </footer>
+      </div>
       <!-- End of Footer -->
 
     </div>
