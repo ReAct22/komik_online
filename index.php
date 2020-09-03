@@ -30,7 +30,7 @@
         <a class="nav-link" href="#">Genre</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">login</a>
+        <a class="nav-link" href="login.php" tabindex="-1" aria-disabled="false">login</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
