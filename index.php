@@ -46,7 +46,9 @@
 		$page = @$_GET['page'];
 		if($page == ""){
 			include "views/home.php";
-		}
+		}else if($page == "detail"){
+      include "views/detail.php";
+    }
 	?>
 
 <!--Footer-->

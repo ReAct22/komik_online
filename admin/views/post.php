@@ -1,3 +1,4 @@
+<?php include "../config/koneksi.php"; ?>
 <!-- Begin Page Content -->
         <div class="container-fluid">
 
@@ -17,34 +18,32 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
+                      <th>id</th>
+                      <th>Title</th>
+                      <th>Post</th>
+                      <th>Kategori</th>
+                      <th>Opsi</th>
                     </tr>
                   </thead>
-                  <tfoot>
-                    <tr>
-                      <th>Name</th>
-                      <th>Position</th>
-                      <th>Office</th>
-                      <th>Age</th>
-                      <th>Start date</th>
-                      <th>Salary</th>
-                    </tr>
-                  </tfoot>
+                  <?php 
+                    $sql = mysqli_query($koneksi,"select *from tb_post");
+                    while($data = mysqli_fetch_array($sql)){
+                  ?>
                   <tbody>
                     <tr>
-                      <td>Tiger Nixon</td>
-                      <td>System Architect</td>
-                      <td>Edinburgh</td>
-                      <td>61</td>
-                      <td>2011/04/25</td>
-                      <td>$320,800</td>
+                      <td><?php echo $data['id_post'] ?></td>
+                      <td><?php echo $data['judul'] ?></td>
+                      <td><?php echo $data['post'] ?></td>
+                      <td><?php echo $data['kategori'] ?></td>
+                      <td>
+                        <a href="" class="btn btn-md btn-primary">Edit</a>
+                        <a href="" class="btn btn-md btn-danger">Hapus</a>
+                      </td>
                     </tr>
                     </tbody>
+                    <?php 
+                      }
+                    ?>
                 </table>
             </div>
         </div>
