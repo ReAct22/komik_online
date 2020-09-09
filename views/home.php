@@ -11,7 +11,7 @@
     <div class="card" style="width: 18rem; margin-left: 30px;">
       <img src="assets/img/<?php echo $data['gambar'] ?>" class="card-img-top" alt="...">
       <div class="card-body">
-        <h1 class="card-title"><?php echo $data['judul'] ?></h1>
+        <h1 class="card-title"><?php echo $data['title'] ?></h1>
         
         <a href="?page=detail&id=<?php echo $data['id_post'] ?>" class="btn btn-primary">Go somewhere</a>
       </div>

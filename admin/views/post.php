@@ -20,7 +20,6 @@
                     <tr>
                       <th>id</th>
                       <th>Title</th>
-                      <th>Post</th>
                       <th>Kategori</th>
                       <th>Opsi</th>
                     </tr>
@@ -32,8 +31,7 @@
                   <tbody>
                     <tr>
                       <td><?php echo $data['id_post'] ?></td>
-                      <td><?php echo $data['judul'] ?></td>
-                      <td><?php echo $data['post'] ?></td>
+                      <td><?php echo $data['title'] ?></td>
                       <td><?php echo $data['kategori'] ?></td>
                       <td>
                         <a href="" class="btn btn-md btn-primary">Edit</a>

@@ -5,7 +5,7 @@
 	$data = mysqli_fetch_array($sql);
 ?>
 <center><img src="assets/img/<?php echo $data['gambar'] ?>" width="800" height="150"></center>
-
+<br>
 	
 		<?php echo $data['post']; ?>
 	
