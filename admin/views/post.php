@@ -34,7 +34,7 @@
                       <td><?php echo $data['title'] ?></td>
                       <td><?php echo $data['kategori'] ?></td>
                       <td>
-                        <a href="" class="btn btn-md btn-primary">Edit</a>
+                        <a href="?page=edit_post&id=<?php echo $data['id_post'] ?>" class="btn btn-md btn-primary">Edit</a>
                         <a href="" class="btn btn-md btn-danger">Hapus</a>
                       </td>
                     </tr>
