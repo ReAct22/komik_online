@@ -259,6 +259,8 @@
                 include "views/tambah_post.php";
               }else if($page == "edit_post"){
                 include "views/edit_post.php";
+              }else if($page == "delete_post"){
+                include "views/hapus_post.php";
               }else{
                 include "views/404.php";
               }

@@ -5,8 +5,8 @@
 	$data = mysqli_fetch_array($sql);
 ?>
 
-	
-	<div style="margin-left: 30px; margin-top: 30px;">
-			<?php echo $data['post']; ?>
-	</div>
+	<h1 align="center"><?php echo $data['title'] ?></h1>
+<div style="position: center;" class="container">
+	<?php echo $data['post'] ?>
+</div>
 	
