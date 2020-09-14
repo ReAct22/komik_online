@@ -53,7 +53,12 @@
       $pindah = move_uploaded_file($sumber, $target.$nama_gambar);
       if($pindah){
         mysqli_query($koneksi,"insert into tb_post values('','$judul','$post','$nama_gambar','$kategori')");
-        echo "Data berhasil di Upload";
+        ?>
+          <script type="text/javascript">
+            alert("Data berhasil Di tambah kan");
+            window.location.href="?page=post";
+          </script>
+        <?php
       }else{
         ?>
           <script type="text/javascript">

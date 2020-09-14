@@ -25,10 +25,10 @@
         <a class="nav-link" href="/komik_online">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">News</a>
+        <a class="nav-link" href="?page=artikel&kategori=artikel">News</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Anime</a>
+        <a class="nav-link" href="?page=anime&kategori=anime">Anime</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="login.php" tabindex="-1" aria-disabled="false">login</a>
@@ -49,11 +49,15 @@
 			include "views/home.php";
 		}else if($page == "detail"){
       include "views/detail.php";
+    }else if($page == "anime"){
+      include "views/info_anime.php";
+    }else if($page == "artikel"){
+      include "views/news.php";
     }
 	?>
 
 <!--Footer-->
-	<div class="container" style="padding-top: 400px;">
+	<div class="container-fluid" style="padding-top: 400px;">
 		<p style="text-align: center;">&copy; 2020 KomikNesan</p>
 	</div>
 <!--Javascript-->
