@@ -2,13 +2,13 @@
 <!--Content Web-->
 
 <div class="w3-animate-zoom">
-  <div style="padding-left: 30px; padding-top: 30px;">
+  <div style="padding-left: 120px; padding-top: 30px;">
   <div class="row">
     <?php 
       $sql = mysqli_query($koneksi,"select *from tb_post");
       while($data = mysqli_fetch_array($sql)){
     ?>
-    <div class="card" style="width: 18rem; margin-left: 30px;">
+    <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 30px;">
       <img src="assets/img/<?php echo $data['gambar'] ?>" class="card-img-top" alt="...">
       <div class="card-body">
         <h3 class="card-title"><?php echo $data['title'] ?></h3>

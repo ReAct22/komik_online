@@ -27,7 +27,11 @@ include "../config/koneksi.php";
   <div class="input-group-prepend">
     <span class="input-group-text" id="inputGroup-sizing-default">Kategori</span>
   </div>
-  <input type="text" class="form-control" name="kategori" value="<?php echo $data['kategori'] ?>" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  <select name="kategori" class="form-control">
+  	<option><?php echo $data['kategori'] ?></option>
+    <option value="artikel">Artikel</option>
+    <option value="anime">Anime</option>
+  </select>
 </div>
 
 <input type="submit" name="edit" value="Edit" class="btn btn-md btn-primary">

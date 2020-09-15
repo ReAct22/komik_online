@@ -7,7 +7,7 @@
   <div class="input-group-prepend">
     <span class="input-group-text" id="inputGroup-sizing-default">title</span>
   </div>
-  <input type="text" class="form-control" name="judul" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  <textarea name="judul" class="form-control"></textarea>
 </div>
 
 <textarea class="form-control ckeditor" id="ckeditor" name="post" rows="3"></textarea>
@@ -24,7 +24,10 @@
   <div class="input-group-prepend">
     <span class="input-group-text" id="inputGroup-sizing-default">Kategori</span>
   </div>
-  <input type="text" class="form-control" name="kategori" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+  <select name="kategori" class="form-control">
+    <option value="artikel">Artikel</option>
+    <option value="anime">Anime</option>
+  </select>
 </div>
 
 <input type="submit" name="tambah" value="Tambah" class="btn btn-md btn-primary">

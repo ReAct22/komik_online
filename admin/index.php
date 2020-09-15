@@ -1,3 +1,8 @@
+<?php 
+session_start();
+include "../config/koneksi.php";
+if(@$_SESSION['username']){
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -342,3 +347,8 @@
 </body>
 
 </html>
+<?php 
+}else{
+  header("location:login.php");
+}
+?>

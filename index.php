@@ -14,7 +14,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">KomikNesan	</a>
+  <a class="navbar-brand" href="/komik_online">KomikNesan	</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,7 +57,7 @@
 	?>
 
 <!--Footer-->
-	<div class="container-fluid" style="padding-top: 400px;">
+	<div class="container-fluid" style="padding-top: 50px;">
 		<p style="text-align: center;">&copy; 2020 KomikNesan</p>
 	</div>
 <!--Javascript-->
