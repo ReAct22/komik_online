@@ -25,8 +25,8 @@
     <span class="input-group-text" id="inputGroup-sizing-default">Kategori</span>
   </div>
   <select name="kategori" class="form-control">
-    <option value="artikel">Artikel</option>
-    <option value="anime">Anime</option>
+    <option value="Artikel">Artikel</option>
+    <option value="Anime">Anime</option>
   </select>
 </div>
 
