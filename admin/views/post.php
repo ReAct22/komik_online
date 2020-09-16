@@ -57,7 +57,7 @@
                           $sql = mysqli_query($koneksi,"select *from tb_post");
                         }
                       }else{
-                        $sql = mysqli_query($koneksi,"select *from tb_post LIMIT $posisi, $batas");
+                        $sql = mysqli_query($koneksi,"select *from tb_post order by id_post desc LIMIT $posisi, $batas");
                       }
 
                       $cek = mysqli_num_rows($sql);

@@ -5,7 +5,7 @@
   <div style="padding-left: 120px; padding-top: 30px;">
   <div class="row">
     <?php 
-      $sql = mysqli_query($koneksi,"select *from tb_post");
+      $sql = mysqli_query($koneksi,"select *from tb_post order by id_post desc");
       while($data = mysqli_fetch_array($sql)){
     ?>
     <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 30px;">

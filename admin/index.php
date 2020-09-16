@@ -135,9 +135,9 @@ if(@$_SESSION['username']){
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
+        <a class="nav-link" href="?page=disqusi">
+          <i class="fas fa-fw fa-comments"></i>
+          <span>Disqusi</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
@@ -256,6 +256,10 @@ if(@$_SESSION['username']){
                 include "views/edit_post.php";
               }else if($page == "delete_post"){
                 include "views/hapus_post.php";
+              }else if($page == "disqusi"){
+                include "views/komentar.php";
+              }else if($page == "edit_komen"){
+                include "views/edit_komen.php";
               }else{
                 include "views/404.php";
               }
